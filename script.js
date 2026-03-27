@@ -108,11 +108,11 @@ addTaskButton.addEventListener("click", () => {
     div.classList.add("task")
     div.setAttribute("draggable", "true")
 
-    div.innerHTML = `
-        <h2>${task.title}</h2> 
-        <p>${task.desc}</p>
-        <button>Delete</button>
-        `
+    // div.innerHTML = `
+    //     <h2>${task.title}</h2> 
+    //     <p>${task.desc}</p>
+    //     <button>Delete</button>
+    //     `
 
     todo.appendchild(div)
 
